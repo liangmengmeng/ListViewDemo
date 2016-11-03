@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.bt3:
                 for (MyBean mb:list){
                     mb.isCheck=false;
-                    adapter.notifyDataSetChanged();;
+                    adapter.notifyDataSetChanged();
                 }
                 break;
         }
