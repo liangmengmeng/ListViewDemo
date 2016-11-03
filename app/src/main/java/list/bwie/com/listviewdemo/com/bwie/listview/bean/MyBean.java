@@ -5,5 +5,10 @@ package list.bwie.com.listviewdemo.com.bwie.listview.bean;
  */
 public class MyBean {
     public String text;
-    public boolean isCheck;
+    public boolean isCheck=false;
+
+    public MyBean(String text, boolean isCheck) {
+        this.text = text;
+        this.isCheck = isCheck;
+    }
 }
